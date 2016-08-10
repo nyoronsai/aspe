@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+ @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+ 
+body *{
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+h1,h2{
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-weight: 900;
+}
+h3,h4,h5{
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-weight: 700;
+}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #EAE8E3;
+}
+
+h1, h2, h3, h4, h5, h6,
+div, p, pre, ul, ol, dl, dt, dd,
+address, form, blockquote{
+	padding: 0;/* margin&padding reset */
+	margin: 30px 0;
+	text-align: left;
+	font-size: 100%;
+	line-height: 160%;
+}
+
+a:hover img {
+	filter:alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	}
+	
+.red  {color: #C00;}
+.blue {color: #0083B5;}
+.yellow {color: #FFF50D;}
+
+div.reset {
+	clear: both;
+}
+
+.u { text-decoration:underline;}
+
+.img-left {
+	float: left;
+	margin: 10px 20px 10px 0px;
+}
+.img-right {
+	float: right;
+	margin: 10px 0px 20px 20px;
+}
+
+.txtleft {
+	text-align:left;
+}
+.txtcenter {
+	text-align: center;
+}
+.txtright {
+	text-align:right;
+}
+
+.txt60 {
+	font-size:60%;
+}
+.txt80 {
+	font-size:80%;
+}
+.txt120 {
+	font-size:120%;
+}
+.txt150 {
+	font-size:150%;
+}
+.txt200 {
+	font-size:200%;
+}
+
+.ttl {
+	font-size: 200%;
+	text-align: center;
+	margin:40px 0px 20px 0px;
+}
+
+
+
+.alignleft {
+	float: left;
+	margin: 10px 20px 10px 0px;
+}
+.alignright {
+	float: right;
+	margin: 10px 0px 20px 20px;
+}
+.aligncenter {
+	margin: 0px auto;
+	text-align:center;
+}
+
+.pa15 {	padding: 15px;}
+.pa20 {	padding: 20px;}
+.pa25 {	padding: 25px;}
+
+
+#container {
+	width:1000px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFF;
+}
+
+/*
+===== 2: HEADER ==========================================
+*/
+
+
+.timer_box {
+	padding:0;
+	margin:0;
+	}
+	
+.timer_box p {
+	padding:0;
+	margin:0;
+	}
+	
+div.timer_1 {
+	margin: 0;
+	text-align:center;
+	padding:20px 0 0 0;
+	height:50px;
+}
+
+div#header {
+	margin: 0;
+}
+
+div#header h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+
+
+/*
+===== 3: FOOTER ==========================================
+*/
+div#footer p {
+	text-align: center;
+}
+
+div#footer address {
+	text-align: center;
+	color: #666;
+	text-decoration: none;
+	font-style: normal;
+}
+
+/*
+===== 5: MAIN CONTENT ====================================
+*/
+div#main{
+	padding: 20px 20px 20px;
+	width: 960px;
+	margin: 0;
+}
+div#main .inner{
+	padding: 0px 30px 30px 30px;
+	margin: 0 auto;
+}
+
+
+
+p.name {
+	font-size:150%;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-weight:bold;
+	line-height:100%;
+	text-align:right;
+}
+
+
+
+div#main table {
+	border-collapse: collapse;
+	margin: 10px 0;
+	width: 100%;
+	background-color: #F5F5F5;
+}
+div#main table th {
+	border: 1px solid #999999;
+	padding: 10px;
+	font-weight: normal;
+	background: #fafafa; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fafafa 0%, #f0f0f0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(100%,#f0f0f0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fafafa 0%,#f0f0f0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fafafa 0%,#f0f0f0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fafafa 0%,#f0f0f0 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fafafa 0%,#f0f0f0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-9 */
+	font-size: 100%;
+	width: auto;
+}
+div#main table td {
+	border: 1px solid #999999;
+	background-color: #FAFAFA;
+	padding: 10px;
+}
+
+
+div#main table.date {
+	margin: 0;
+	width:auto;
+}
+div#main table.date td {
+	border:none;
+	padding:5px 20px 5px 0;
+	font-weight:normal;
+	font-size:100%;
+}
+
